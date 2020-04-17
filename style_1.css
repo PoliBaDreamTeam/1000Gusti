@@ -1,0 +1,55 @@
+body{background: #f9b866; margin: 0; padding: 0;}
+
+.header{background: #1e1e1e; height: 70px; width: 100%; position: relative; margin-top: 0; position: sticky; float: left; }
+    .menu_a_tendina{margin-left: 0; margin-right: auto; height: 100%; width: 80px; position: relative; float: left;}
+        #menu{width: 35px;height: 30px;margin: 20px 20px;cursor: pointer; }
+        .bar{height: 4px;width: 100%;background-color: #ffffff;display: block;border-radius: 5px;}
+        #prima_barra{transform: translateY(6px);}
+        #seconda_barra{transform: translateY(10px);}
+        #terza_barra{transform: translateY(14px);}
+        .change.bar{background-color: #f9b866;}
+        .change .bar{background-color: white;}
+        .change #prima_barra{transform: translateY(8px) rotateZ(-45deg);}
+        .change #terza_barra{transform: translateY(0px) rotate(45deg);}
+        .change #seconda_barra{opacity: 0;}
+        .nav li a{color: white;text-decoration: none;margin-left: 20px;}
+        .nav li{list-style: none;padding: 16px 0;}
+        .nav{padding:0;margin: 0 20px;transition:0.3s ease;display:none;font-family: 'Roboto Mono', monospace;}
+        .change{display: block;}
+        .menu-bg{width: 0;height: 0;background: radial-gradient(circle,#1e1e1e,#1e1e1e);transition: 0.3s ease;z-index: 1;border-radius: 0;}
+        #menu-bar{z-index: 2;}
+        .change-bg{width:350px;height: 500px;transform: translate(-60%, -30%);}
+        .menu-bg, #menu-bar{top: 0;left: 0;position: absolute;}
+
+    #logo{height: 100%; width: 120px; margin-left: 17%; margin-right: auto; position: relative; position: sticky; float: left;}
+    
+    .barra_di_ricerca{background: blue; float: right; margin-right: 0; position: relative; position: sticky; margin-left:auto; height: 100%; width: 200px;}
+  
+    .opzioni_header{float: right; margin-right: 21.5%; position: relative;position: sticky; margin-left: auto; height: 100%; width: 600px; padding: 0;
+                    margin-top:-20px;
+                    font-family: 'Roboto Mono', monospace; color: white; font-size: 20px}
+        .navigation{float: right;height: 100%;}
+        .navigation a{height: 100%;display:table;float: left;padding: 0px 20px; color: white; text-decoration: none;}
+        .navigation a li{display: table-cell;vertical-align: middle; color: white; text-decoration: none;}
+        
+       
+/*-----------------ottimizzo per schermi di larghezza inferiore---------------------------*/
+
+@media (max-width: 998px);
+.header{overflow: hidden}
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        

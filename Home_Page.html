@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Home Page 1000 Gusti</title>
+    <!------inserisco un normalize, css di reset---->
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style_1.css">
+    <!-- font usato per header e menu-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!-- font extra non usato per ora-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-----------------Creiamo l'intestazione della home page, una barra di navigazione con comandi base e menu di navigazione--------------------------->
+<!-------script del menu a tendina------>
+
+
+
+<script src="script.menu.a.tendina.js"></script>
+    <div class="menu_a_tendina">
+        <div id="menu-bar">
+             <div id="menu" onclick="onClickMenu();">
+                <div id="prima_barra" class="bar"></div>
+                <div id="seconda_barra" class="bar"></div>
+                <div id="terza_barra" class="bar"></div>
+            </div>
+             <ul class="nav" id="nav">
+                <li><a href="http://localhost/php/login.html"><b>LOG IN</b></a></li>
+                <li><a href="Antipasti 1000Gusti.html"><b>INFO</b></a></li>
+                <li><a href="PrimiPiatti 1000Gusti.html"><b>CONTATTI</b></a></li>
+                <li><a href="SecondiPiatti 1000Gusti.html"><b>ABOUT</b></a></li>
+                <li><a href="Dolci 1000Gusti.html"><b>ALTRO</b></a></li>
+             </ul>
+        </div>
+        <div class="menu-bg" id="menu-bg"></div>
+    </div>
+<div class="header">
+
+    
+    <div class="barra_di_ricerca"></div>
+    
+    <img id="logo" src="logo2.jpg">
+    
+    <div class="opzioni_header">
+            <ul class="navigation">
+                <a href="Home 1000Gusti.html"><li>ANTIPASTI</li></a>
+                <a href=""><li>PRIMI</li></a>
+                <a href=""><li>SECONDI</li></a>
+                <a href=""><li>DOLCI</li></a>
+    </div>
+</div>
+    
+<!-----------------Creiamo l'immagine copertina della Home Page--------------------------->
+<img id="wallpaper__home__page" src="wallpaper_home_page2.jpg" alt="immagine di copertina" width=100%; height=auto>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+</html>
